@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Lifecycle</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+    }
+    .map-wrapper {
+      width: 100%;
+      max-width: 2000px;
+      margin: 0 auto;
+    }
+    .map-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="map-wrapper">
+    <img src="order_lifecycle.png" usemap="#image-map" alt="Order Lifecycle">
+    <map name="image-map">
+      <area target="_blank"
+            alt="Online Orders from BigCommerce"
+            title="Online Orders from BigCommerce"
+            href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/customer-service-sales/order-management-customer-service/big-commerce-orders-order-management"
+            coords="1889,228,1466,83"
+            shape="rect">
+    </map>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      imageMapResize();
+    });
+  </script>
+</body>
+</html>
