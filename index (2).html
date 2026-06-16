@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Lifecycle</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+    }
+    .map-wrapper {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .map-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="map-wrapper">
+    <img src="OrderLifecycle.png" usemap="#image-map" alt="Order Lifecycle">
+    <map name="image-map">
+      <area target="_blank" alt="Quote" title="Quote" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/customer-service-sales/quotes-price-estimates-customer-service" coords="14,10,300,50" shape="rect">
+      <area target="_blank" alt="Manual Order" title="Manual Order" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/customer-service-sales/payment-processing-customer-service/manual-orders-payment-processing" coords="446,8,738,54" shape="rect">
+      <area target="_blank" alt="Online Order" title="Online Order" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/order-management-customer-service/big-commerce-orders-order-management" coords="876,10,1170,54" shape="rect">
+      <area target="_blank" alt="Initial Review" title="Initial Review" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/order-management-customer-service/initial-order-review" coords="878,93,1170,130" shape="rect">
+      <area target="_blank" alt="Process Order" title="Process Order" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/order-management-customer-service/processing-frictionless-orders-in-stoneedge" coords="876,172,1176,211" shape="rect">
+      <area target="_blank" alt="Fulfillment" title="Fulfillment" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/warehouse-operations/pickerpacker" coords="872,255,1176,296" shape="rect">
+      <area target="_blank" alt="Ship" title="Ship" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/warehouse-operations/shipping-warehouse" coords="1176,385,882,337" shape="rect">
+      <area target="_blank" alt="Fill Backorder" title="Fill Backorder" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/sales-operations/order-management-customer-service/processing-backorders" coords="444,172,738,213" shape="rect">
+      <area target="_blank" alt="Receiving" title="Receiving" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/warehouse-operations/copy-of-receiving-inventory-warehouse" coords="444,255,740,300" shape="rect">
+      <area target="_blank" alt="SPOs" title="SPOs" href="https://sites.google.com/flags.com/flagsdotcom-portal/operations/warehouse-operations/purchasing-warehouse" coords="6,255,300,294" shape="rect">
+    </map>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      imageMapResize();
+    });
+  </script>
+</body>
+</html>
